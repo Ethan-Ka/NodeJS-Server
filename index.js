@@ -67,7 +67,7 @@ app.get('/collections', (req, res) => {
         <div id="container">
             <div id="header">
                 <h1>Collections</h1>
-                <p style="font-size 4px; text-decoration: none; font-weight: 400 !important;">If you're here to make fun of my writings,<br> shame on you.</p>
+                <p style="font-size 4px; text-decoration: none; font-weight: 400 !important;">subtext</p>
             </div>
             <div id="sidebar">
                 <a href="/">Home</a>
