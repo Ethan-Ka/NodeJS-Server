@@ -1,0 +1,132 @@
+/* basic styles */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+:root{
+    background-color: rgb(39, 39, 39);
+    color: #ffffff;
+
+
+    /* from google fonts */
+    font-family: "Noto Sans Mono", serif;
+    font-optical-sizing: auto;
+    font-variation-settings:"wdth" 100;
+}
+ul{
+    list-style-type: none;
+    float: left;
+    
+}
+
+a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #c5c5c5a8;
+    
+}
+
+a:active {
+    text-decoration: none;
+}
+
+/* styles for home page */
+body {
+    margin: 0;
+    padding: 0;
+    width: 60em;
+}
+
+html {
+    height: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sidebar{
+    width: 11em;
+    float: left;
+    align-content: left;
+    margin: 1em;
+    margin-top: 0.5em;
+    display: grid;
+    padding-left: 1em;
+}
+#sidebar a {
+    transition: smooth;
+    transition-duration: 1s;
+    border-radius: 3px;
+    border-color: #585858;
+    border-width: 1em;
+    padding: 0.2em;
+    padding-left: 1em;
+    background-color: #585858;
+    text-align: left;
+    width: 8em;
+    margin-bottom: 0.8em;
+    grid-column: 1;
+    text-decoration: none !important;
+}
+#sidebar a:hover {
+    
+    box-shadow: 0.2em 0.2em 0.5em #1f1f1f;
+    background-color: #696969;
+}
+#header{
+    font-size: 1em;
+    font-weight: bold;
+    margin: 1em;
+    margin-bottom: 0em;
+    padding-left: 1em;
+    float: left;
+    width: 57em;
+}
+#content{
+    padding: 1em;
+    padding-top: 0em !important;
+    width: 44em;
+    height: 100%;
+    float: right;
+}
+/* style for collections.html */
+#collections {
+    padding: 1em;
+    padding-top: 0em !important;
+    width: 44em;
+    height: 100%;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: auto;
+    align-content: start
+}
+
+#collections .article{
+  flex: 0 0 auto;
+  margin: 8px;
+
+}
+#collections a{
+    text-decoration: none;
+}
+#collections a:hover{
+    text-decoration: solid;
+    font-weight: bold;
+}
+#markdownContent {
+    position: absolute;
+    width: 60em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+#markdownContent #date{
+    font-weight: 500;
+    font-size: 12px;
+}
